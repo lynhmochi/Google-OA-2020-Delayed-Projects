@@ -1,4 +1,4 @@
-with open('t.txt','r') as f:
+with open('test.txt','r') as f:
   lines = f.readlines()
   lines = [l.strip().split(' ') for l in lines]
 
